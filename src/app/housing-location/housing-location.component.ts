@@ -11,6 +11,7 @@ import { Component } from '@angular/core';
   `,
   styleUrl: './housing-location.component.css'
 })
+
 export class HousingLocationComponent {
 
 }

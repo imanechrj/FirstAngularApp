@@ -1,10 +1,10 @@
 .listing {
-  background: var(--accent-color);
+  background: lightblue;
   border-radius: 30px;
   padding-bottom: 30px;
 }
 .listing-heading {
-  color: var(--primary-color);
+  color: lightskyblue;
   padding: 10px 20px 0 20px;
 }
 .listing-photo {
@@ -17,13 +17,13 @@
   padding: 10px 20px 20px 20px;
 }
 .listing-location::before {
-  content: url("/assets/location-pin.svg") / "";
+  content: url("/assets/img/location-pin.svg") / "";
 }
 
 section.listing a {
   padding-left: 20px;
   text-decoration: none;
-  color: var(--primary-color);
+  color: blue;
 }
 section.listing a::after {
   content: "\203A";
